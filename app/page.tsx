@@ -25,7 +25,7 @@ export default function Page() {
   const serviceAreas = "Nashville, Franklin, Brentwood, Columbia, Spring Hill";
   const phoneNumber = "615-330-6756";
   const email = "joshlanius@yahoo.com";
-  const logo = "https://qsaefjpdhmcwuiytcvan.supabase.co/storage/v1/object/public/portfolio-photos/landing-page/logo-1761517807493-hs3nnc.webp";
+  const logo = "https://qsaefjpdhmcwuiytcvan.supabase.co/storage/v1/object/public/portfolio-photos/550e8400-e29b-41d4-a716-446655440000/logo-1761519666507-1tuavq.webp";
   const differentiation2 = "Licensed and Insures";
   const differentiation3 = "Fair Prices";
   const licenseNumber = "";
@@ -34,11 +34,11 @@ export default function Page() {
   const certificationLinks = "";
   const financingLogos = [];
   const financingLinks = "";
-  const headerFooterColor = "#000edd";
+  const headerFooterColor = "#5a7190";
   const backgroundColor = "#ffffff";
   const accentColor = "#2563eb";
 
-  const portfolioPhotos: Array<{name: string; type: string; url: string}> = [{"name":"Portfolio Photo","type":"image/jpeg","url":"https://via.placeholder.com/300x300?text=Photo"},{"name":"Portfolio Photo","type":"image/jpeg","url":"https://via.placeholder.com/300x300?text=Photo"},{"name":"Portfolio Photo","type":"image/jpeg","url":"https://via.placeholder.com/300x300?text=Photo"}];
+  const portfolioPhotos: Array<{name: string; type: string; url: string}> = [{"name":"IMG_7350.jpg","type":"image/webp","url":"https://qsaefjpdhmcwuiytcvan.supabase.co/storage/v1/object/public/portfolio-photos/550e8400-e29b-41d4-a716-446655440000/1761519678531-jdkz5v.webp"},{"name":"IMG_7351.jpg","type":"image/webp","url":"https://qsaefjpdhmcwuiytcvan.supabase.co/storage/v1/object/public/portfolio-photos/550e8400-e29b-41d4-a716-446655440000/1761519678850-vf709ln.webp"},{"name":"IMG_7352.jpg","type":"image/webp","url":"https://qsaefjpdhmcwuiytcvan.supabase.co/storage/v1/object/public/portfolio-photos/550e8400-e29b-41d4-a716-446655440000/1761519679109-t3l13h.webp"}];
 
   const t = {
     callNow: lang === 'es' ? 'Llamar Ahora' : 'Call Now',
